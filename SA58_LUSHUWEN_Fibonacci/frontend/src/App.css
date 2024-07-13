@@ -1,0 +1,54 @@
+
+.coin-calculator {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.coin-calculator form {
+  display: flex;
+  flex-direction: column;
+}
+
+.coin-calculator label {
+  margin-bottom: 10px;
+}
+
+.coin-calculator input[type="number"],
+.coin-calculator input[type="text"] {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.coin-calculator button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.coin-calculator button:hover {
+  background-color: #0056b3;
+}
+
+.coin-calculator .result {
+  margin-top: 20px;
+}
+
+.coin-calculator .result ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.coin-calculator .result li {
+  margin-bottom: 5px;
+}
+
